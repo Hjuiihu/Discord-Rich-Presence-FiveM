@@ -4,7 +4,7 @@ Citizen.CreateThread(function()
     local playerName = GetPlayerName(PlayerId())
     local PlayerId = Getplayerserverid(PlayerId())
 
-    local appId = 1295327856447979631
+    local appId = your app id discord
     local bigPic = 'big'
 
     SetDiscordAppId(appId)
