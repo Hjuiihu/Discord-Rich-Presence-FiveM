@@ -2,23 +2,25 @@ Citizen.CreateThread(function()
   while true do 
   
     local playerName = GetPlayerName(PlayerId())
-    local PlayerId = Getplayerserverid(PlayerId())
+    local playerId =  GetPlayerServerId(PlayerId())
 
-    local appId = your app id discord
+    local appId = Your app id discord
+    local smallPic = 'small'
     local bigPic = 'big'
 
     SetDiscordAppId(appId)
 
-    setRichPresence('Username: ' .. playerName .. 'Server Id:' .. playerId)
+    SetRichPresence('' .. playerName .. '  Id :' .. playerId)
 
     SetDiscordRichPresenceAsset(bigPic)
     SetDiscordRichPresenceAssetText('Big Text')
 
-    SetDiscordRichPresenceAssetText('Small Text')
+    SetDiscordRichPresenceAssetSmall(smallPic)
+    SetDiscordRichPresenceAssetSmallText('Small Text')
     
 
-    setRichPresenceAction(0, 'Discord', 'https://discord.gg/gUAmHM33vq')
-    setRichPresenceAction(1, 'Join Server', 'https://cfx.re/join/dl9pe5')
+    SetDiscordRichPresenceAction(0, 'Discord', 'https://discord.gg/gUAmHM33vq')
+    SetDiscordRichPresenceAction(1, 'Join Server', 'https://cfx.re/join/dl9pe5')
 
     Citizen.Wait(1000)
   end
