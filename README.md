@@ -33,4 +33,4 @@ git clone https://github.com/hjuiihu/Discord-Rich-Presence-FiveM [local]/Discord
 
 - Add `start Hj_richpresence` to your `server.cfg`.
 
-#### Legal
+#### Enjoy
