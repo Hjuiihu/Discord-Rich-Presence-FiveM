@@ -10,7 +10,7 @@ Citizen.CreateThread(function()
 
     SetDiscordAppId(appId)
 
-    SetRichPresence('' .. playerName .. '  Id :' .. playerId)
+    SetRichPresence('' .. playerName .. '  〢 ID :' .. playerId)
 
     SetDiscordRichPresenceAsset(bigPic)
     SetDiscordRichPresenceAssetText('Big Text')
