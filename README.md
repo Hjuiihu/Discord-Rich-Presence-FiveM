@@ -31,6 +31,6 @@ git clone https://github.com/hjuiihu/Discord-Rich-Presence-FiveM [local]/Discord
 
 ### Instalation
 
-- Add `start Hj_richpresence` to your `server.cfg` or `ressource.cfg`.
+- Add `ensure Hj_richpresence` to your `server.cfg` or `ressource.cfg`.
 
 #### Enjoy
